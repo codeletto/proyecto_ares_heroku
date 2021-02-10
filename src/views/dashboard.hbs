@@ -1,0 +1,55 @@
+{{#if user}}
+<section>
+    <div class="p-5">
+        <h1>
+            Mis Balances
+        </h1>
+    </div>
+    <div class="pl-5 row">
+        <div class="card m-5 rounded" style="width: 25rem;">
+            <img src="/img/Thomasin McKenzie.png" class="card-img-top" alt="image_dashboard_01">
+            <div class="card-body text-center">
+                <h5 class="card-title">Balance general</h5>
+                <p class="card-text">0.00 PEN</p>
+                <button type="button" class="btn btn-lg btn-block btn_depositar rounded">Depositar</button>
+                <button type="button" class="btn btn-lg btn-block btn_retirar rounded">Retirar</button>
+            </div>
+        </div>
+        <div class="card m-5 rounded" style="width: 25rem;">
+            <img src="/img/Frank Mckenna.jpg" class="card-img-top" alt="image_dashboard_02">
+            <div class="card-body text-center">
+                <h5 class="card-title">Balandce general</h5>
+                <p class="card-text">0.00 USD</p>
+                <button type="button" class="btn btn-lg btn-block btn_depositar rounded">Depositar</button>
+                <button type="button" class="btn btn-lg btn-block btn_retirar rounded">Retirar</button>
+            </div>
+        </div>
+    </div>
+    <div class="px-5 ">
+        <div class="px-5 row">
+            <div class="col-3 card text-center mr-5 shadow-sm p-3 mb-5 bg-white rounded" style="width: 2rem; height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">RONDAS ACTIVAS</h5>
+                    <h1>09</h1>
+                </div>
+            </div>
+            <div class="col-3 card text-center mr-5 shadow-sm p-3 mb-5 bg-white rounded" style="width: rem; height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">RONDAS CONCLUIDAS</h5>
+                    <h1>11</h1>
+                </div>
+            </div>
+            <div class="col-3 card text-center shadow-sm p-3 mb-5 bg-white rounded" style="width: 2rem; height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">RONDAS TOTALES</h5>
+                    <h1>20</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+{{else}}
+{{/if}}
